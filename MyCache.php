@@ -2,7 +2,6 @@
 class MyCache {
 
     private $path;
-    private $key;
     
     private $expire_time;
     private $file_extention;
@@ -43,18 +42,10 @@ class MyCache {
         return $this->path;
     }
 
-    function getKey() {
-        return $this->key;
-    }
-
     function setPath($path) {
         $this->path = $path;
     }
 
-    function setKey($key) {
-        $this->key = $key;
-    }
-    
     function getExpireTime() {
         return $this->expire_time;
     }
