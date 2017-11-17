@@ -54,8 +54,6 @@ class MyCache {
         $this->expire_time = $expire_time;
     }
     
-    
-    
     function setFileExtention($file_extention){
         $this->file_extention = $file_extention;
     }
