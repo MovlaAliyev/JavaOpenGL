@@ -1,4 +1,8 @@
 <?php
+
+/*
+    Developed by Movla Aliyev for educational purpose
+*/
 class MyCache {
 
     private $path;
