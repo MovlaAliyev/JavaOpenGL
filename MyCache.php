@@ -1,5 +1,4 @@
 <?php
-
 /*
     Developed by Movla Aliyev for educational purpose
 */
