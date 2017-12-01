@@ -52,7 +52,7 @@ public class Loader {
 		int vboID = GL15.glGenBuffers();
 		vbo.add(vboID);
 		GL15.glBindBuffer(GL15.GL_ARRAY_BUFFER, vboID);
-        GL15.glBufferData(GL15.GL_ARRAY_BUFFER, dataToFloatBuffer(data), GL15.GL_STATIC_DRAW);
+        	GL15.glBufferData(GL15.GL_ARRAY_BUFFER, dataToFloatBuffer(data), GL15.GL_STATIC_DRAW);
 		GL20.glVertexAttribPointer(attrnumber, 3, GL11.GL_FLOAT, false, 0, 0);
 		GL15.glBindBuffer(GL15.GL_ARRAY_BUFFER, 0); // unbind
 	}
